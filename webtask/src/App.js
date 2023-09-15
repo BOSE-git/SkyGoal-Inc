@@ -6,6 +6,9 @@ import Header from './components/Header.jsx'
 import Home from './components/Home.jsx';
 import Review from './components/Review.jsx';
 import Book from './components/Book.jsx';
+import Testimonial from './components/Testimonial.jsx';
+import PreFooter from './components/PreFooter.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Destinations/>
       <Discount/>
       <Book/>
+      <Testimonial />
+      <PreFooter/>
+      <Footer/>
     </div>
   );
 }

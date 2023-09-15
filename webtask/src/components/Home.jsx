@@ -4,7 +4,7 @@ import boywithcircle from './assets/boywithcircle.png';
 const Home = () => {
     
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2  mt-[8rem] w-full'>
+        <div className='grid grid-cols-1 md:grid-cols-2  mt-[4rem] w-full'>
             <div className="left-home  relative lg:mx-[8rem] md:mx-[2rem]">
                 <svg className='absolute'
                     xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">

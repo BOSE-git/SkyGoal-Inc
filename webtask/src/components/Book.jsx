@@ -7,8 +7,9 @@ const Book = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 w-full mt-[10rem]'>
             <div className="left-review relative flex flex-col justify-center items-center">
-                <div className="girl2">
+                <div className="girl2 reelative">
                     <img className='w-[80%]' src={girl2} alt="Girl" />
+                    <div className="w-[311px] h-[71px] bg-[#F27A44] absolute top-[14rem] right-[11rem] -z-10 " style={{ transform: 'rotate(-1.665deg)' }}></div>
                 </div>
             </div>
             <div className="right-review rounded-lg shadow-lg w-[450px] flex relative flex-col px-[50px] py-[50px] lg:ml-[100px] md:ml-[100px] sm:ml-[200px]">

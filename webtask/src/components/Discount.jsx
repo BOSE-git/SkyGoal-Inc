@@ -16,7 +16,6 @@ const Discount = () => {
                 <p className='text-xl my-1 font-semibold'>Get 20% off for student</p>
                 <h1 className='text-5xl font-semibold'>Student discounts available.</h1>
                 <h2 className='text-2xl my-2'>Get ready for some fun in the sun!</h2>
-
                 <ul className='list-disc ml-10'>
                     <li>Lorem ipsum dolor sit amet.</li>
                     <li>Lorem ipsum dolor sit amet consectetur.</li>
