@@ -1,0 +1,25 @@
+.Menu{
+    display: none;
+}
+
+@media(max-width:600px){
+    .Menu{
+        display: block;
+        cursor: pointer;
+    }
+    .navlinks{
+        /* display: none; */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: -140px;
+        padding: 0 20px;
+        transition: 0.5s ease;
+    }
+    .navlinks li{
+        padding: 5px 0;
+    }
+    .active{
+        left: 0px;
+    }
+}
