@@ -17,10 +17,11 @@ const Destinations = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? destinationsArray.length - 1 : prevIndex - 1));
   };
 
+
   return (
-    <div className="relative">
+    <div className="relative" >
       <h1 className="text-3xl mx-20 mt-[200px] mb-[50px]" >Our Destinations</h1>
-      <div className="mb-[2000px] mx-16 flex overflow-hidden relative">
+      <div className=" mx-16 flex overflow-hidden relative">
         <div
           className="flex transition-transform duration-500 ease-in-out transform"
           style={{

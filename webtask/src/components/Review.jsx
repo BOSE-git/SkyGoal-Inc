@@ -2,6 +2,7 @@ import React from 'react';
 import avatar from './assets/avatar.png';
 
 const Review = () => {
+    
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 w-full mt-[10rem]'>
             <div className="left-review relative flex flex-col justify-center items-center">
