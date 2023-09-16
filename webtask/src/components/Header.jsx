@@ -16,13 +16,13 @@ const Header = () => {
     }
 
   return (
-    <div className="bg-white-500 p-4 ">
+    <div className="bg-white p-4 fixed w-[100vw] top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="left-nav flex">
             <ul className='Menu' onClick={handleMenu}>
                 <li className="text-black font-semibold ">Menu</li>
             </ul>
-          <ul className="navlinks flex font-semibold">
+          <ul className="navlinks flex font-semibold z-10 bg-white">
             <li className="text-black px-2">Home</li>
             <li className="text-black px-2">About</li>
             <li className="text-black px-2">Schedules</li>

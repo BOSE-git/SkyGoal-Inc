@@ -7,11 +7,12 @@ const Testimonial = () => {
     return (
         <div className='mb-[200px]' >
             <h1 className='text-4xl font-semibold text-center my-[5rem]'>Testimonial</h1>
-            <div className="Testimonials w-[100vw] flex justify-evenly">
+            <div className="Testimonials w-[100vw] flex flex-col items-center md:flex-row justify-evenly">
                 <TestimonialCard avatar={avatar} name={"Corey Korsgaard"} />
-                <TestimonialCard avatar={avatarTwo} name={"Jakob Aminoff"}/>
-                <TestimonialCard avatar={avatarThree} name={"Carla Press"}/>
+                <TestimonialCard avatar={avatarTwo} name={"Jakob Aminoff"} />
+                <TestimonialCard avatar={avatarThree} name={"Carla Press"} />
             </div>
+
         </div>
     )
 }
